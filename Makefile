@@ -11,7 +11,8 @@ GHCONF=$(BASEDIR)/gh-conf.py
 
 INTERMEDIATE_DATA_DIR=$(BASEDIR)/content/data
 
-GITHUB_PAGES_BRANCH=gh-pages
+GITHUB_REMOTE=gh-pages
+GITHUB_PAGES_BRANCH=master
 
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)
@@ -94,7 +95,7 @@ gh-publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(GHCONF) $(PELICANOPTS)
 	
 github: gh-publish
-	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
+	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) -r $(GITHUB_REMOTE) $(OUTPUTDIR)
 	git push origin $(GITHUB_PAGES_BRANCH)
 
 .PHONY: html help clean regenerate serve serve-global devserver stopserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
