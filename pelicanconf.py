@@ -23,7 +23,7 @@ MENUITEMS = [
 ]
 DISPLAY_PAGES_ON_MENU = False
 
-#THEME = 'theme/notmyidea'
+THEME = 'themes/notmyidea'
 #THEME = 'theme/pelican-bootstrap3'
 #PLUGIN_PATHS = ['plugins', ]
 #PLUGINS = ['i18n_subsites', ]
