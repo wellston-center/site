@@ -46,14 +46,26 @@ help:
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
 	@echo '                                                                          '
 
-html:
+copy-twenty-theme-static:
+	@echo 'copying twenty theme static files'
+	mkdir -p $(OUTPUTDIR)/css
+	mkdir -p $(OUTPUTDIR)/js
+	mkdir -p $(OUTPUTDIR)/fonts
+	mkdir -p $(OUTPUTDIR)/images
+
+	cp -rf themes/twenty/static/css/* $(OUTPUTDIR)/css
+	cp -rf themes/twenty/static/js/* $(OUTPUTDIR)/js
+	cp -rf themes/twenty/static/fonts/* $(OUTPUTDIR)/fonts
+	cp -rf themes/twenty/static/images/* $(OUTPUTDIR)/images
+
+html: copy-twenty-theme-static
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
 	[ ! -d $(INTERMEDIATE_DATA_DIR) ] || rm -rf $(INTERMEDIATE_DATA_DIR)
 
-regenerate:
+regenerate: copy-twenty-theme-static
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 serve:
@@ -71,7 +83,7 @@ else
 endif
 
 
-devserver:
+devserver: copy-twenty-theme-static
 ifdef PORT
 	$(BASEDIR)/develop_server.sh restart $(PORT)
 else
@@ -82,13 +94,13 @@ stopserver:
 	$(BASEDIR)/develop_server.sh stop
 	@echo 'Stopped Pelican and SimpleHTTPServer processes running in background.'
 
-publish:
+publish: copy-twenty-theme-static
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
 push-site: publish
 	rsync -a output/ wellstoncenter.org:wellston/
 
-gh-publish:
+gh-publish: copy-twenty-theme-static
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(GHCONF) $(PELICANOPTS)
 	
 github: gh-publish

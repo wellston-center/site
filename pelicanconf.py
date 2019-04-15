@@ -23,13 +23,8 @@ MENUITEMS = [
 ]
 DISPLAY_PAGES_ON_MENU = False
 
-THEME = 'themes/notmyidea'
-#THEME = 'theme/pelican-bootstrap3'
-#PLUGIN_PATHS = ['plugins', ]
-#PLUGINS = ['i18n_subsites', ]
-#JINJA_ENVIRONMENT = {
-#    'extensions': ['jinja2.ext.i18n'],
-#}
+#THEME = 'themes/notmyidea'
+THEME = 'themes/twenty'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -37,6 +32,11 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+import sys
+sys.path.append(os.path.dirname(os.path.realpath(__file__)))
+from utils import filters
+JINJA_FILTERS = { 'sidebar': filters.sidebar }
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
