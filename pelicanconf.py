@@ -23,13 +23,13 @@ MENUITEMS = [
 ]
 DISPLAY_PAGES_ON_MENU = False
 
-THEME = 'themes/notmyidea'
-#THEME = 'theme/pelican-bootstrap3'
-#PLUGIN_PATHS = ['plugins', ]
-#PLUGINS = ['i18n_subsites', ]
-#JINJA_ENVIRONMENT = {
-#    'extensions': ['jinja2.ext.i18n'],
-#}
+#THEME = 'themes/notmyidea'
+THEME = 'themes/pelican-bootstrap3'
+PLUGIN_PATHS = ['plugins', ]
+PLUGINS = ['i18n_subsites', ]
+JINJA_ENVIRONMENT = {
+    'extensions': ['jinja2.ext.i18n'],
+}
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -52,3 +52,5 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+HIDE_SIDEBAR = True
