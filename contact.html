@@ -13,13 +13,13 @@
 <link rel="canonical" href="https://wellston-center.github.io/pages/involvement-and-contacts.html">
 
         <meta name="author" content="Wellston Center" />
-        <meta name="description" content="Location The St. Augustine Wellston Center 1705 Kienlen Ave St. Louis, MO 63133 (314) 382-7158 function resizeIFrameToFitContent( iFrame ) { iFrame.width = iFrame.contentWindow.document.body.scrollWidth - 50; iFrame.height = iFrame.contentWindow.document.body.scrollHeight - 50; } window.addEventListener(&#39;DOMContentLoaded&#39;, function(e) { var iFrame = document.getElementById( &#39;googleMapsIframe&#39; ); //resizeIFrameToFitContent( iFrame ); } );" />
+        <meta name="description" content="Location The St. Augustine Wellston Center 1705 Kienlen Ave St. Louis, MO 63133 (314) 382-7158 function resizeIFrameToFitContent( iFrame ) { maxHeight = 900; approxHeaderHeight = 90; useableHeight = window.innerHeight - approxHeaderHeight; iFrame.height = useableHeight; if(useableHeight &gt; maxHeight){ iFrame.height = maxHeight; } } window.addEventListener(&#39;DOMContentLoaded&#39;, function(e) { var iFrame = document.getElementById( &#39;googleMapsIframe&#39; ); resizeIFrameToFitContent( iFrame ); } );" />
 
     <meta property="og:site_name" content="St. Augustine Wellston Center" />
     <meta property="og:type" content="article"/>
     <meta property="og:title" content="Involvement and Contacts"/>
     <meta property="og:url" content="https://wellston-center.github.io/pages/involvement-and-contacts.html"/>
-    <meta property="og:description" content="Location The St. Augustine Wellston Center 1705 Kienlen Ave St. Louis, MO 63133 (314) 382-7158 function resizeIFrameToFitContent( iFrame ) { iFrame.width = iFrame.contentWindow.document.body.scrollWidth - 50; iFrame.height = iFrame.contentWindow.document.body.scrollHeight - 50; } window.addEventListener(&#39;DOMContentLoaded&#39;, function(e) { var iFrame = document.getElementById( &#39;googleMapsIframe&#39; ); //resizeIFrameToFitContent( iFrame ); } );" />
+    <meta property="og:description" content="Location The St. Augustine Wellston Center 1705 Kienlen Ave St. Louis, MO 63133 (314) 382-7158 function resizeIFrameToFitContent( iFrame ) { maxHeight = 900; approxHeaderHeight = 90; useableHeight = window.innerHeight - approxHeaderHeight; iFrame.height = useableHeight; if(useableHeight &gt; maxHeight){ iFrame.height = maxHeight; } } window.addEventListener(&#39;DOMContentLoaded&#39;, function(e) { var iFrame = document.getElementById( &#39;googleMapsIframe&#39; ); resizeIFrameToFitContent( iFrame ); } );" />
 
 
 
@@ -86,15 +86,19 @@ St. Louis, MO 63133
 <script type="application/javascript">
 
 function resizeIFrameToFitContent( iFrame ) {
-
-    iFrame.width  = iFrame.contentWindow.document.body.scrollWidth - 50;
-    iFrame.height = iFrame.contentWindow.document.body.scrollHeight - 50;
+    maxHeight = 900;
+    approxHeaderHeight = 90;
+    useableHeight = window.innerHeight - approxHeaderHeight;
+    iFrame.height = useableHeight;
+    if(useableHeight > maxHeight){
+        iFrame.height = maxHeight;
+    }
 }
 
 window.addEventListener('DOMContentLoaded', function(e) {
 
     var iFrame = document.getElementById( 'googleMapsIframe' );
-    //resizeIFrameToFitContent( iFrame );
+    resizeIFrameToFitContent( iFrame );
 } );
 
 </script>
