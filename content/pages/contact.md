@@ -12,15 +12,19 @@ save_as: contact.html
 <script type="application/javascript">
 
 function resizeIFrameToFitContent( iFrame ) {
-
-    iFrame.width  = iFrame.contentWindow.document.body.scrollWidth - 50;
-    iFrame.height = iFrame.contentWindow.document.body.scrollHeight - 50;
+    maxHeight = 900;
+    approxHeaderHeight = 90;
+    useableHeight = window.innerHeight - approxHeaderHeight;
+    iFrame.height = useableHeight;
+    if(useableHeight > maxHeight){
+        iFrame.height = maxHeight;
+    }
 }
 
 window.addEventListener('DOMContentLoaded', function(e) {
 
     var iFrame = document.getElementById( 'googleMapsIframe' );
-    //resizeIFrameToFitContent( iFrame );
+    resizeIFrameToFitContent( iFrame );
 } );
 
 </script>
