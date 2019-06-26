@@ -1,7 +1,18 @@
 Title: Involvement and Contacts
 save_as: contact.html
 
-# Location
+## Hours of Operation
+
+### Food Pantry
+
+*   Tuesday and Wednesday    7:30 am to 10:30 am
+
+### Thrift Store
+
+*   Friday         9:00 am to 1:00 pm
+*   Saturday       9:00 am to Noon
+
+## Location
 
     The St. Augustine Wellston Center
     1705 Kienlen Ave
