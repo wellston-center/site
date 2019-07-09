@@ -12,13 +12,20 @@ save_as: contact.html
 *   Friday         9:00 am to 1:00 pm
 *   Saturday       9:00 am to Noon
 
+## Get In Touch
+
+**Phone:** (314) 382-7158
+
+**E-mail:** <WellstonCenter@gmail.com>
+
+**Donate:** [External Donation System](http://weblink.donorperfect.com/WellstonCenterOnlineDonation)
+
 ## Location
 
-    The St. Augustine Wellston Center
-    1705 Kienlen Ave
-    St. Louis, MO 63133
-    
-    (314) 382-7158
+The St. Augustine Wellston Center<br/>
+1705 Kienlen Ave<br/>
+St. Louis, MO 63133<br/>
+
 
 <script type="application/javascript">
 

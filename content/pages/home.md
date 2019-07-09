@@ -21,3 +21,7 @@ We have volunteer nurses to assist clients with blood pressure checks, answer qu
 Our thrift store is open to the public Friday and Saturday mornings.  Available are New Balance shoes, clothing, furniture, jewelry, household items and other donated items.
 
 You are welcome to visit our center.  Please also consider volunteering or donating.  We will pick up any furniture items you would like to donate.
+
+## Donate
+
+Please donate to the Wellston Center with our [External Donation System](http://weblink.donorperfect.com/WellstonCenterOnlineDonation).
