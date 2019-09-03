@@ -25,3 +25,10 @@ You are welcome to visit our center.  Please also consider volunteering or donat
 ## Donate
 
 Please donate to the Wellston Center with our [External Donation System](http://weblink.donorperfect.com/WellstonCenterOnlineDonation).
+
+### Casino Night
+
+There will be a fundraiser to benefit the Wellston Center on October 11th. 
+See more details at [this link](https://interland3.donorperfect.net/weblink/weblink.aspx?name=E347468&id=2)
+
+[![Casino Night](img/CasinoNight.jpg)](https://interland3.donorperfect.net/weblink/weblink.aspx?name=E347468&id=2)
