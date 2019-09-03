@@ -29,6 +29,6 @@ Please donate to the Wellston Center with our [External Donation System](http://
 ### Casino Night
 
 There will be a fundraiser to benefit the Wellston Center on October 11th. 
-See more details at [this link](http://weblink.donorperfect.com/2019CasinoNight)
+For more info and to buy tickets use [this link](http://weblink.donorperfect.com/2019CasinoNight)
 
 [![Casino Night](img/CasinoNight.jpg)](http://weblink.donorperfect.com/2019CasinoNight)
