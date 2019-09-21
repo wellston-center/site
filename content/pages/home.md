@@ -1,6 +1,8 @@
 Title: Home
 save_as: index.html
 
+![logo](img/wellston_ver1_blue.png)
+
 Welcome to the website for the St. Augustine Wellston Center.
 
 ## Hours of Operation
@@ -24,11 +26,16 @@ You are welcome to visit our center.  Please also consider volunteering or donat
 
 ## Donate
 
+[![donate](img/donate_button.png)](http://weblink.donorperfect.com/WellstonCenterOnlineDonation)
+
 Please donate to the Wellston Center with our [External Donation System](http://weblink.donorperfect.com/WellstonCenterOnlineDonation).
 
 ### Casino Night
 
+[![Casino Night](img/CasinoNight.jpg)](http://weblink.donorperfect.com/2019CasinoNight)
+
+[![register](img/register_button.png)](http://weblink.donorperfect.com/2019CasinoNight)
+
 There will be a fundraiser to benefit the Wellston Center on October 11th. 
 For more info and to buy tickets use [this link](http://weblink.donorperfect.com/2019CasinoNight)
 
-[![Casino Night](img/CasinoNight.jpg)](http://weblink.donorperfect.com/2019CasinoNight)

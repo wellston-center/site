@@ -19,6 +19,7 @@ FAVICON = 'img/favicon.ico'
 MENUITEMS = [
     ("Home", "index.html"),
     ("About", "about.html"),
+    ("Gallery", "gallery.html"),
     ("Contact", "contact.html")
 ]
 DISPLAY_PAGES_ON_MENU = False

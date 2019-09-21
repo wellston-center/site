@@ -1,6 +1,9 @@
 Title: About Us
 save_as: about.html
 
+About Us
+========
+
 As a Catholic, independent, community-based ministry, the St. Augustine Wellston Center promotes greater well-being of low-income people in the Wellston area. We strive to support people in mind, body, and soul by providing social services and food in a safe environment.
 
 The St. Augustine Wellston Center is an outreach food pantry and thrift store for the Wellston community. The center was founded over 25 years ago by Sr. Mary Beckmann and Sr. Kathy Stark, Sisters of the Notre Dame along with Sr. Carol Ann Callahan, Sister of Mercy.
