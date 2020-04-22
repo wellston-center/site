@@ -5,12 +5,13 @@ save_as: contact.html
 
 ### Food Pantry
 
-*   Tuesday and Wednesday    7:30 am to 10:30 am
+*   Tuesday        7:30 am to 10:30 am
+
+ Clients are allowed now to come twice per month.
 
 ### Thrift Store
 
-*   Friday         9:00 am to 1:00 pm
-*   Saturday       9:00 am to Noon
+Due to Covid-1, the Thrift Store is closed until further notice
 
 ## Get In Touch
 
