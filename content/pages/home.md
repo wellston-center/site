@@ -31,4 +31,8 @@ You are welcome to visit our center.  Please also consider volunteering or donat
 
 Please donate to the Wellston Center with our [External Donation System](http://weblink.donorperfect.com/WellstonCenterOnlineDonation).
 
+To donate by check, please send it to:
 
+    The Wellston Center
+    P.O. Box 11969
+    St. Louis, MO 63112-0069

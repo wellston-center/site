@@ -19,7 +19,18 @@ Due to Covid-1, the Thrift Store is closed until further notice
 
 **E-mail:** <WellstonCenter@gmail.com>
 
-**Donate:** [External Donation System](http://weblink.donorperfect.com/WellstonCenterOnlineDonation)
+
+## Donate
+
+[![donate](img/donate_button.png)](http://weblink.donorperfect.com/WellstonCenterOnlineDonation)
+
+Please donate to the Wellston Center with our [External Donation System](http://weblink.donorperfect.com/WellstonCenterOnlineDonation).
+
+To donate by check, please send it to:
+
+    The Wellston Center
+    P.O. Box 11969
+    St. Louis, MO 63112-0069
 
 ## Location
 
