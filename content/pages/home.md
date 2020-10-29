@@ -27,6 +27,8 @@ Our thrift store is open to the public Friday and Saturday mornings.  Available 
 
 You are welcome to visit our center.  Please also consider volunteering or donating.  We will pick up any furniture items you would like to donate.
 
+Visit and follow us on [facebook](https://www.facebook.com/wellstoncenter/).
+
 ## Donate
 
 [![donate](img/donate_button.png)](http://weblink.donorperfect.com/WellstonCenterOnlineDonation)

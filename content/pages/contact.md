@@ -21,6 +21,7 @@ save_as: contact.html
 
 **E-mail:** <WellstonCenter@gmail.com>
 
+**Facebook:** Visit and follow us on [facebook](https://www.facebook.com/wellstoncenter/).
 
 ## Donate
 
