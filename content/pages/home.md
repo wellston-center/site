@@ -9,13 +9,15 @@ Welcome to the website for the St. Augustine Wellston Center.
 
 ### Food Pantry
 
-*   Tuesday        7:30 am to 10:30 am
+*   Tuesday        7:30 am to 10:00 am
+*   Wednesday      7:30 am to 10:00 am
 
  Clients are allowed now to come twice per month.
 
 ### Thrift Store
 
-Due to Covid-1, the Thrift Store is closed until further notice
+*   Friday         9:00 am to 1:00 pm
+*   Saturday       9:00 am to 12:00 pm
 
 ## Services
 
@@ -33,6 +35,6 @@ Please donate to the Wellston Center with our [External Donation System](http://
 
 To donate by check, please send it to:
 
-    The Wellston Center
-    P.O. Box 11969
-    St. Louis, MO 63112-0069
+>    The Wellston Center  
+>    P.O. Box 11969  
+>    St. Louis, MO 63112-0069  
