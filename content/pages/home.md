@@ -12,7 +12,7 @@ Welcome to the website for the St. Augustine Wellston Center.
 *   Tuesday        7:30 am to 10:00 am
 *   Wednesday      7:30 am to 10:00 am
 
- Clients are allowed now to come twice per month.
+ Clients are allowed to come once per month.
 
 ### Thrift Store
 
